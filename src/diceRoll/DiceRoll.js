@@ -14,7 +14,8 @@ const DiceRoll = () => {
     const [sum2, setSum2] = useState(0)
     const [score, setScore] = useState(0)
     const [result, setResult] = useState(false)
-    const [winner, setWinner] = useState("")
+    const [winner1, setWinner1] = useState("")
+    const [winner2, setWinner2] = useState("")
 
 
     const RandomNum = () => {
@@ -31,14 +32,17 @@ const DiceRoll = () => {
 
         if (value % 10 === 0 && value!=0) {
 
-            // alert("Click ok to get result");
             setUser(1);
             setSum2(score);
             setScore(0)
             setResult(true)
-            if(sum1>sum2) setWinner("Player 1 wins!!");
-            else if(sum1<sum2) setWinner("Player 2 wins!!");
-            else setWinner("Its a draw")
+
+            setWinner1("Player 1 wins!!")
+            setWinner2("Player 2 wins!!")
+           
+            if(sum1==sum2)
+            alert("Match tied :anguished:")
+           
         }
     }
 
@@ -53,7 +57,8 @@ const DiceRoll = () => {
 
     return (
         <>
-        {result ? (<Win winner={winner} p1score={sum1} p2score={sum2} />    ) 
+        {result ? (<Win  p1score={sum1} p2score={sum2} winner1={winner1} winner2={winner2} /> 
+            ) 
              :   
         ( <div><Die face={faces[dice]} player={user} />
 
