@@ -23,14 +23,14 @@ const DiceRoll = () => {
         setDice(num);
         setScore(score + num + 1);
         setValue(value + 1);
-        if (value % 5 === 0 && value % 2 != 0 && value != 0) {
+        if (value % 5 === 0 && value % 2 !== 0 && value !== 0) {
             alert("Player 2 turn");
             setUser(2);
             setSum1(score);
             setScore(0)
         }
 
-        if (value % 10 === 0 && value != 0) {
+        if (value % 10 === 0 && value !== 0) {
 
             setUser(1);
             setSum2(score);
@@ -40,7 +40,7 @@ const DiceRoll = () => {
             setWinner1("Player 1 wins!!")
             setWinner2("Player 2 wins!!")
 
-            if (sum1 == sum2)
+            if (sum1 === sum2)
                 alert("Match tied :anguished:")
 
         }
