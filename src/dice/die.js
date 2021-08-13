@@ -1,11 +1,11 @@
 import React from 'react'
 
-const die = () => {
+const Die = (props) => {
     return (
         <div>
-          <i class="die fas fa-dice-two"/>
+          <i class={`fas fa-dice-${props.face} `}/>
         </div>
     )
 }
 
-export default die
+export default Die
