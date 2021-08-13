@@ -3,7 +3,7 @@ import React from 'react'
 const Die = (props) => {
     return (
         <div>
-          <i class={`fas fa-dice-${props.face} `}/>
+          <i class={`fas fa-dice-${props.face}`}/>
         </div>
     )
 }
