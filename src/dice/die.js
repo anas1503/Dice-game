@@ -1,9 +1,13 @@
 import React from 'react'
+import './die.css'
 
 const Die = (props) => {
+    const {player,face}=props;
+
     return (
         <div>
-          <i class={`fas fa-dice-${props.face}`}/>
+          <h2>Player {player}</h2>
+          <i class={` die fas fa-dice-${face}`}/>
         </div>
     )
 }
