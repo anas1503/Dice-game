@@ -1,0 +1,25 @@
+.winContainer{
+    background: #000;
+    padding-top: 20%;
+    padding-bottom: 40%;
+
+}
+
+
+.win{
+    font-size: 30px;
+    /* margin-top: 20%; */
+    color:rgb(43, 241, 60);
+    letter-spacing: 6px;
+    font-weight: bold;
+    padding-top: 20%;
+        
+}
+
+.winScore{
+    display: flex;
+    justify-content: space-around;
+    color:rgb(236, 66, 36);
+    margin-top: 10%;
+    font-size:25px ;
+}

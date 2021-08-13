@@ -4,7 +4,11 @@
     margin-top: 30px;
 }
 
-h2{
+.players{
     color:rgb(53, 47, 47);
     margin-top: 61px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color:rgb(197, 64, 30)
 }

@@ -6,7 +6,7 @@ const Die = (props) => {
 
     return (
         <div>
-          <h2>Player {player}</h2>
+          <p className="players">Player {player}</p>
           <i class={` die fas fa-dice-${face}`}/>
         </div>
     )

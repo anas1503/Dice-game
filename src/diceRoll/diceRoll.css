@@ -1,34 +1,59 @@
 .btn{
     margin-top: 30px;
-    width: 60px;
-    height: 60px;
+    width: 53px;
+    height: 53px;
     border-radius: 100%;
     border:none;
     cursor: pointer;
     color:firebrick;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: bold;
 }
+.reset{
+    margin-top: 30px;
+    margin-right: 28px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    color:firebrick;
+    font-size: 12px;
+    font-weight: bold;
 
+}
 .sum{
+    letter-spacing: 3px;
     color:cyan;
     margin-top: 30px;
 }
 
 .score{
-    /* height:5vh; */
+    height:15vh;
     margin-top: 10px;
-    background: #000;
     display: flex;
     justify-content: space-around;
 }
+.count{
+    padding-top: 35px;
+}
 
 #p1{
+    font-size: 20px;
     color:rgb(100, 192, 108);
-    /* margin-top: 10px; */
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+
+
 }
 
 #p2{
+    font-size: 20px;
     color:rgb(100, 192, 108);
-    /* margin-top: 10px; */
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+
+    
 }
 
