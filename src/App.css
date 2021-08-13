@@ -4,6 +4,47 @@
   box-sizing: border-box;
   text-align: center;
 }
+body{
+  background: rgb(230, 222, 222);
+}
+
+.Landing{
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+ 
+ .img{
+   margin-top: 5%;
+     width: 70%;
+     
+ }
+ 
+ .start{
+    
+     display: flex;
+     flex-direction: column;
+     margin-top: 20%;
+     font-size: 60px;
+ }
+  .title{
+    color:black;
+     margin-top: 20%;
+     font-weight: bold;
+ } 
+ 
+ .btn1{
+   margin-left: 75%;
+   margin-top: 5%;
+     width: 80px;
+     height:30px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     color:rgb(29, 28, 28);
+     background-color: white;
+     border-radius: 5px;
+ }
 
 .main{
   background-color: rgb(177, 175, 175);
