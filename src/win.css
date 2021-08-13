@@ -8,7 +8,6 @@
 
 .win{
     font-size: 30px;
-    /* margin-top: 20%; */
     color:rgb(43, 241, 60);
     letter-spacing: 6px;
     font-weight: bold;
@@ -26,7 +25,6 @@
 }
 
 .playAgain{
-    /* margin-top: 50px;     */
     width: 53px;
     height: 53px;
     border-radius: 5px;
