@@ -16,7 +16,7 @@ body{
  
  .img{
    margin-top: 5%;
-     width: 70%;
+     width: 50%;
      
  }
  
@@ -41,8 +41,8 @@ body{
      border: none;
      outline: none;
      cursor: pointer;
-     color:rgb(29, 28, 28);
-     background-color: white;
+     color:white;
+     background-color: rgb(20, 20, 20);
      border-radius: 5px;
  }
 
