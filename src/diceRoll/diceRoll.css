@@ -8,3 +8,27 @@
     color:firebrick;
     font-size: 20px;
 }
+
+.sum{
+    color:cyan;
+    margin-top: 30px;
+}
+
+.score{
+    /* height:5vh; */
+    margin-top: 10px;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+#p1{
+    color:rgb(100, 192, 108);
+    /* margin-top: 10px; */
+}
+
+#p2{
+    color:rgb(100, 192, 108);
+    /* margin-top: 10px; */
+}
+
